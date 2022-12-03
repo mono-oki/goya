@@ -24,7 +24,6 @@ TwitterAPIを利用するために、Twitterの公式サイトからDeveloper登
 
 ちなみに、アカウントに電話番号が登録されていないと先に進めません。  
 ![]({{site.baseurl}}/assets/img/posts_image/2021-12-10-001/2021-12-10-001.png)
-ナンテコッタイ  
 
 * Developerへの登録手順はこちらのサイトを参考にしました。APIの利用目的は英語で記入したほうが良いらしいです。英語…
   * [【API】TwitterAPIの登録方法！アカウント申請方法と認証されるまでの手順をレポートします！【2021年1月版】](https://correct-log.com/how_to_get_twitter_api/){:target="_blank"}
@@ -51,7 +50,7 @@ $ npm -v
 ※↑は筆者の環境です。
 
 ### ③コードを書く
-書きました。エイヤで動けばいいやの精神なので、ほざけたコードに見えたらスミマセン、、
+書きました。エイヤで作ったので、書きっぷりは見なかったことにしてください。  
 ```javascript
 const fs = require('fs');
 const rp = require('request-promise');
@@ -138,7 +137,7 @@ client.get('favorites/list', params, (err, tweets, res) => {
 
 ### ④必要なモジュールをインストール
 
-* ソースファイルが置かれているディレクトリでコマンドプロンプトを開き、下記コマンドでモジュールをインストールしました。
+* ソースファイルが置かれているディレクトリでコマンドプロンプトを開き、下記コマンドでモジュールをインストールします。
 ```
 $ npm install --save request
 $ npm install --save request-promise
@@ -147,7 +146,7 @@ $ npm install --save twitter
 * ディレクトリ内に「package.json」「package-lock.json」ファイルと「node_modules」フォルダができます。
 
 ### ⑤実行
-* ソースファイルが置かれているディレクトリで下記コマンドを実行しました。
+* ソースファイルが置かれているディレクトリで下記コマンドを実行します。
 ```
 $ node app.js
 ```
@@ -158,7 +157,10 @@ $ node app.js
 サイズ違いで1つの動画につき3種類くらい保存されるみたいですね。  
 
 ## おわりに
-デビルスティックが当たっても壊れなさそうなパソコンで動かしてみました。   
+ジャグリング道具が当たっても壊れなさそうなパソコンで動かしてみました。   
+
 ![]({{site.baseurl}}/assets/img/posts_image/2021-12-10-001/2021-12-10-004.jpg)  
+
 つよそうですね。  
-これで練習中も安心！  
+
+終り

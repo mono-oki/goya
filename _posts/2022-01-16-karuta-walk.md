@@ -9,7 +9,7 @@ title         : "郷土かるたのオープンデータで散歩コースを作
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tVVYrcaT24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   
   
-私は街中を気の向くままに散歩するのが好きなので、オープンデータと地図データを組み合わせて簡単な散歩コースを作るWebアプリケーションを作ってみました。
+せっかくなので、オープンデータと地図データを組み合わせて簡単な散歩コースを作るWebアプリケーションを作ってみました。
 
 # 準備
 
@@ -99,4 +99,6 @@ GitHubに公開しました。
 
 かるた標識の緯度経度を手作業で調べるのはなかなか骨が折れました。  
 他にも様々なオープンデータが公開されているので、いろいろなアイデアに活用できそうで楽しそうですね。  
-これからもドンドン触ってみたいと思います。
+これからもドンドン触ってみたいと思います。  
+
+終り  
